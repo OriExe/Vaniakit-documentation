@@ -1,5 +1,5 @@
 site_name: Vaniakit
 nav:
   - Home: index.md
-  - About: about.md
+  - Player.PlayerController: PlayerController.md
 theme : readthedocs
