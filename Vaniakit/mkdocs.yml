@@ -2,4 +2,6 @@ site_name: Vaniakit
 nav:
   - Home: index.md
   - Player.PlayerController: PlayerController.md
+  - Player.PlayerJump: PlayerJump.md
+  - ResourceManager.Inventory: Inventory.md
 theme : readthedocs

@@ -5,25 +5,25 @@ The PlayerController holds important data used by other player scripts and contr
 - health data
 - player [Rigidbody2D](https://docs.unity3d.com/ScriptReference/Rigidbody2D.html)
 ## Events
-### `onPlayerHit(int damageTaken)`
+#### `onPlayerHit(int damageTaken)`
 Triggers when the player takes damage from an enemy
-### `onPlayerHitCritical(int damageTaken)`
+#### `onPlayerHitCritical(int damageTaken)`
 Triggers when the player takes damage from a trap and therefore requires them to teleport to another location. (by default it does not do that but the functionally can be added using the <span style="color: red;"> Vaniakit.Generic.TeleportToNearestCheckpoint class [Missing Link]</span>)
 ## Accessible Variables (In Code)
-### `int currentHealth` 
+#### `int currentHealth` 
 Access and modify the currentHealth of the player during game.
-### `delegate onPlayerDead`
+#### `delegate onPlayerDead` (Should be changed)
 Is called when the player dies in game, Can be added onto any script using 
 
     Vaniakit.Player.PlayerController.onPlayerDead+=yourMethod() //Vaniakit.player can be removed if already referenced in your script 
 
 ## Accessible Variables (In Unity Editor)
 
-### `Rigidbody2D rb`
-Ridigbody for the player can be accessed from any script by running
+#### `Rigidbody2D rb`
+The main ridigbody for the player that can be accessed from any script by running
     
      Vaniakit.Player.PlayerController.getPlayerRigidbody() //Vaniakit.player can be removed if already referenced in your script 
 
 
-### `int startingHealth`
+#### `int startingHealth`
 Amount of health player starts with, only affects the start of the game and doesn't change player's health after that unless you restart the game.
