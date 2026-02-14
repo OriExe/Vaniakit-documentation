@@ -1,7 +1,15 @@
 site_name: Vaniakit
 nav:
   - Home: index.md
-  - Player.PlayerController: PlayerController.md
-  - Player.PlayerJump: PlayerJump.md
-  - ResourceManager.Inventory: Inventory.md
+  - Player.PlayerController class: PlayerController.md
+  - Player.PlayerMovement class: movement.md
+  - Player.PlayerJump class: PlayerJump.md
+  - Manager.Managers class: Managers.md
+  - ResourceManager.Inventory class: Inventory.md
+  - ResourceManager.InventorySlot struct: InventorySlot.md
+  - Map.Management.FadeInManager class: fadeInManager.md
+  - Map.Management.SceneTeleporter class: sceneTeleporter.md
+  - Create your own item: createItem.md
+  - Using Start and Update Methods: startandupdate.md
+  - Scenario 1 Specific Tips: S1tips.md
 theme : readthedocs

@@ -1,5 +1,5 @@
 # PlayerJump Class
-![alt text](Images/image.png)
+![alt text](Images/PlayerJumpDetails.png)
 
 Class that controls the player jump
 

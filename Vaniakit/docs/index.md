@@ -1,17 +1,16 @@
 # Vaniakit docs
+Welcome to the Vaniakit documentation where you can find out about all the important systems present in Vaniakit and how you can use them. In this page you'll learn how to use Vaniakit and what it can do.
 
-Hi full documentation visit [mkdocs.org](https://www.mkdocs.org).
-## Commands
+## Premade Systems
+Vaniakit has tons of premade systems that you can use straight away by searching up the component you want and adding it to your game object.
+<video src="Videos/Demo video.mp4" muted autoplay loop width="100%" height="auto"> </video> 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Add more with event handlers
+Run your own code using the various event triggers present in Vaniakit. 
 
-## Project layout
+- Create  your own C# script. 
+- Replace monobehaviour with one of the Vaniakit systems you wish to inherit
+- Start defining what each event will trigger  
+<video src="Videos/Vaniakit code edited.mp4" muted autoplay loop width="100%" height="auto"> </video>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-    
+Want to use Start and Update read **[here](/startandupdate)**
