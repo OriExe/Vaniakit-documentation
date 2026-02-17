@@ -5,7 +5,7 @@ Manager script that manages the inventory for your player and should be added as
 
 You don't need to make your own Inventory script that inherits from Inventory you can just use the main Inventory script already provided
 
-**Note:This page will tell you what each element is showing [InventorySlot](/InventorySlot)**
+**Note:This page will tell you what each element is showing [InventorySlot](InventorySlot.md)**
 ## Accessible Methods
 
 #### `static void addItemToInventory (InventorySlot itemToGive)`
