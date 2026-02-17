@@ -1,5 +1,6 @@
 # InventorySlot Struct
 ![](Images/InventorySlot.png)
+
 A structure that defines an inventory item like a sword or currency
 
 ## Variables

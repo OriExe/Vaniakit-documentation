@@ -7,8 +7,10 @@ nav:
   - Manager.Managers class: Managers.md
   - ResourceManager.Inventory class: Inventory.md
   - ResourceManager.InventorySlot struct: InventorySlot.md
-  - Map.Management.FadeInManager class: fadeInManager.md
   - Map.Management.SceneTeleporter class: sceneTeleporter.md
+  - Map.Management.FadeInManager class: fadeInManager.md
+  - FastTravelSystem.FastTravelPoint : FastTravelPoint.md
+  - FastTravelSystem.FastTravelSystem : FastTravelSystem.md
   - Create your own item: createItem.md
   - Using Start and Update Methods: startandupdate.md
   - Scenario 1 Specific Tips: S1tips.md

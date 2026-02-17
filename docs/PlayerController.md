@@ -9,6 +9,8 @@ The PlayerController holds important data used by other player scripts and contr
 Triggers when the player takes damage from an enemy
 #### `onPlayerHitCritical(int damageTaken)`
 Triggers when the player takes damage from a trap and therefore requires them to teleport to another location. (by default it does not do that but the functionally can be added using the <span style="color: red;"> Vaniakit.Generic.TeleportToNearestCheckpoint class [Missing Link]</span>)
+#### `onPlayerInteractedWithObject(string nameOfObject)`
+Triggers when the player interacts with a gameobject that has an IInteractable interface. Includes the name of the type of object they interacted with as `nameOfObject` such as interacted with `itemPickup`.
 ## Accessible Variables (In Code)
 #### `int currentHealth` 
 Access and modify the currentHealth of the player during game.
