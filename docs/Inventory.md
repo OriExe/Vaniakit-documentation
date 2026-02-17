@@ -1,7 +1,7 @@
 # Inventory Class
 ![alt text](Images/Inventory.png)
 
-Manager script that manages the inventory for your player and should be added as a child to the main managers game object see info **[here](/Managers)** 
+Manager script that manages the inventory for your player and should be added as a child to the main managers game object see info **[here](Managers.md)** 
 
 You don't need to make your own Inventory script that inherits from Inventory you can just use the main Inventory script already provided
 
