@@ -6,7 +6,10 @@ Script that allows you to teleport to different room.
 #### `onPlayerLoadedHere()`
 Triggers if the player has loaded in the specific point that this script is attached to.
 ## How to use
-**Note:** Before you follow this tutorial make sure you've set up the [Managers](Managers.md) class and the [FadeInManager](fadeInManager.md) which should be a child in the managers class. 
+**Note:** Before you follow this tutorial make sure you've set up
+
+- [Managers](Managers.md) class 
+- [FadeInManager](fadeInManager.md) which should be a child in the managers class. 
 
 ##### Make sure your box colider is big enough and Is trigger is enabled
 ![altext](Images/BoxColider.png)
